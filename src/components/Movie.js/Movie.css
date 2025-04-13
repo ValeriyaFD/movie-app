@@ -1,0 +1,110 @@
+.movieList{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+    margin-bottom: 36px;
+}
+.movie{
+    box-shadow:5px 7px 12px 0 rgba(0, 0, 0, 0.15);
+    display: grid;
+    grid-template-columns: 183px 1fr;
+    height: 281px;
+    column-gap: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+.image{
+    max-width: 183px;
+    height: 281px;
+}
+.movieTitle{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    width: 180px;
+}
+.movieDate{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 183%;
+    color: #827e7e;
+    margin: 0;
+    margin-bottom: 9px;
+}
+.movieOverview{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 183%;
+    color: #000;
+    margin: 0;
+}
+.imageBox{
+    max-width: 183px;
+    height: 281px;
+}
+.stars{
+    font-size: 20px;
+    position: absolute;
+    bottom: 15px;
+}
+.average{
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-radius: 100%;
+    border: 2px solid ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 183%;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    margin-bottom: 34px;
+    height: 40px;
+}
+.pagination{
+    align-items: center;
+}
+.pagination-movies .ant-pagination-options {
+    display: none;
+}
+.emptyResult{
+    color:#827e7e;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.movieGenre{
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 65%);
+    margin: 0;
+}
+.genreBox{
+border: 1px solid #D9D9D9;
+border-radius: 2px;
+width: max-content;
+height: 20px;
+background: #fafafa;
+padding: 2px 3px 0 3px;
+margin-right: 8px;
+margin-bottom: 8px;
+}
+.genreList{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ratedPlease{
+    font-size: 25px;
+    color: #827e7e;
+    display: flex;
+    justify-content: center;
+}
